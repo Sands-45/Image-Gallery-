@@ -1,0 +1,29 @@
+body{
+  padding:0;
+  margin:0;
+}
+.container{
+  height:100vh;
+  width:100%;
+  display:flex;
+  background:#ccc;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+  padding:.5rem;
+}
+.gal-img{
+  flex:1;
+  height:80%;
+  transition:flex 1s ease-in-out;
+}
+img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  cursor:pointer;
+  border-radius:0.5rem;
+}
+.active{
+  flex:8;
+}
